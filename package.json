@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "gh-pages -d angular-pwa/dist"
+    "deploy": "npx gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
